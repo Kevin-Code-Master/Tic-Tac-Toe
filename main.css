@@ -92,7 +92,7 @@
 #exit{
     margin-top: 50px;
     font-size: 15px;
-    border: 2px inset white;
+    border: 2px outset white;
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
