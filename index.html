@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="main.js" defer></script>
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class="container">
+        <!-- The cells where the X or O goes into -->
+        <div class="gameBoard">
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+        </div>
+        <!-- This is the div for displaying the win/draw -->
+        <div class="message">
+            <div class="winningMessage">
+
+            </div>
+            <button class="button" id="restart">Restart</button>
+        </div>
+        <!-- button for restarting the game after it ends -->
+        <div class="gameIntro">
+            <div class="gameDisplayEffects">
+                <button id="tic">Tic</button>
+                <button id="tac">Tac</button>
+                <button id="toe">Toe</button>
+            </div>
+            <div class="welcome">
+            
+            </div>
+            <!-- button to introduce the gameboard and start the game -->
+            <button class="button" id="startGame">Start Game</button>
+        </div>
+    </div>
+</body>
+</html>
