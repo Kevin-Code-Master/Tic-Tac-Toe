@@ -11,6 +11,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    position:absolute;
+}
+.gameInfo{
+    position: relative;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    top: -70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: oblique;
+}
+.gameInfo p{
+    text-shadow: -5px -3px 4px rgba(206,89,55,0.95);
 }
 /* This is the gameboard which houses the cells */
 .gameBoard{
