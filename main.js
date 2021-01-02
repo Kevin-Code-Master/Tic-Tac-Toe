@@ -5,6 +5,7 @@ const restartBtn = document.getElementById('restart');//Restart button
 const winningMessage = document.querySelector('.winningMessage');
 const winningMessageContainer = document.querySelector('.message');
 const cellElements = document.querySelectorAll('[data-cell]');
+const exit = document.getElementById('exit');
 const WINNING_COMBINATIONS = [
     [0,1,2],
     [3,4,5],
@@ -15,6 +16,12 @@ const WINNING_COMBINATIONS = [
     [0,4,8],
     [2,4,6]
   ]
+// EXIT THE GAME
+exit.addEventListener('click', (e)=>{
+    exit.setAttribute('style','border:2px outset white;');
+    gameIntro.classList.add('.gameIntro');
+    gameIntro.setAttribute('style','display: flex;');
+});
 // initialize the classes to be added on cell Click
 const class_O = ('o');
 const class_X = ('x');
