@@ -18,7 +18,6 @@ const WINNING_COMBINATIONS = [
   ]
 // EXIT THE GAME
 exit.addEventListener('click', (e)=>{
-    exit.setAttribute('style','border:2px outset white;');
     gameIntro.classList.add('.gameIntro');
     gameIntro.setAttribute('style','display: flex;');
 });
